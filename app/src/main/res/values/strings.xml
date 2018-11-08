@@ -1,0 +1,135 @@
+<resources>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">连接</string>
+    <string name="menu_disconnect">断开</string>
+    <string name="menu_scan">扫描</string>
+    <string name="menu_stop">停止</string>
+
+    <!-- 扫描LE -->
+    <string name="scan_connected">已连接</string>
+    <string name="scan_disconnected">已断开</string>
+    <string name="scan_connect_timeout">连接超时</string>
+    <string name="scan_connection_error">连接异常</string>
+    <string name="data_available">数据传输开始</string>
+    <string name="scan_bt_disabled">蓝牙未打开</string>
+
+    <!-- 已连接 -->
+    <string name="encrypt">数据加密</string>
+    <string name="connected_send">发送</string>
+    <string name="connected_send_hex_hint" formatted="false">请输入16进制字符，最多%d字节</string>
+    <string name="connected_send_ascii_hint" formatted="false">请输入ascii字符，最多%d字节</string>
+    <string name="input_bytes" formatted="false">已输入%d字节</string>
+    <string name="max_bytes" formatted="false">最多%d字节</string>
+
+    <!-- 模组设置 -->
+    <string name="ble_title">模组设置</string>
+    <string name="ble_read">读取</string>
+    <string name="ble_set">设置</string>
+    <string name="ble_set_adv_interval_hint">32~24000（单位 625μs）</string>
+    <string name="ble_set_conn_interval_hint">16~3200（单位1.25ms）</string>
+
+    <!-- OAD -->
+    <string name="oad_start">开始</string>
+    <string name="oad_cancel">取消</string>
+    <string name="oad_load_file">加载文件</string>
+    <string name="oad_please_select_a_device">请选择需要升级的设备</string>
+    <string name="oad_please_select_a_image">未加载升级文件</string>
+    <string name="oad_programming">正在升级！</string>
+    <string name="oad_send_interval">发送间隔</string>
+
+    <!-- MTU -->
+    <string name="mtu_update">更新MTU</string>
+    <string name="mtu_no_device_connected">未连接设备</string>
+
+    <string name="doctorimg">医生图片</string>
+    <string name="musicImg">音乐图标</string>
+    <string name="musicTitle">音乐标题</string>
+    <string name="musicArt">艺术家</string>
+    <string name="app_name">音频采集</string>
+    <string name="caijimiaoshu">针对人体心音，肺音等信号进行采集</string>
+    <!--<string name="feiyinluzhi">波形实时显示</string>-->
+    <string name="feiyinbaocun">肺音保存</string>
+    <string name="xinyinbaocun">心音保存</string>
+    <string name="rerecord">重新录制</string>
+    <string name="deviceState">设备连接状态: </string>
+    <string name="disconnect">蓝牙断开</string>
+    <string name="reposition">录制位置</string>
+    <string name="fselect">完成疾病类型选择</string>
+    <string name="sex">性别：</string>
+    <string name="nan">男</string>
+    <string name="nv">女</string>
+    <string name="age">年龄：</string>
+    <string name="save">保存录制音频</string>
+    <string name="otherTye">输入其它肺音类型</string>
+    <string name="otherTye_h">输入其它心音类型</string>
+    <string name="attach">输入患者附加疾病</string>
+    <string name="attach_h">输入患者附加疾病</string>
+    <string name="feiyinPlayer">肺音播放</string>
+    <string name="xinyinPlayer">心音播放</string>
+    <string name="openDataBase">打开音频库</string>
+    <string name="playerStart">00:00</string>
+    <string name="playerEnd">00:00</string>
+    <string name="previous">上一个</string>
+    <string name="next">下一个</string>
+    <string name="player">播放</string>
+
+    <!--<肺音选项></肺音选项 气管炎>-->
+    <string name="item1">气胸</string>
+    <string name="item2">肺大泡</string>
+    <string name="item3">肺气肿</string>
+    <string name="item4">肺癌</string>
+    <string name="item5">肺心病</string>
+    <string name="item6">呼吸衰竭</string>
+    <string name="item7">肺栓塞</string>
+    <string name="item8">肺脓肿</string>
+    <string name="item9">肺炎</string>
+    <string name="item10">新生儿肺炎</string>
+    <string name="item11">小儿肺炎</string>
+    <string name="item12">正常</string>
+    <string name="item13">哮喘</string>
+    <string name="item14">肺结核</string>
+    <string name="item15">尘肺</string>
+    <string name="item16">间质性肺疾病</string>
+    <string name="item17">呼吸系统疾病</string>
+    <string name="item18">其它</string>
+    <string name="posname">肺音录制位置</string>
+    <string name="pos1">1</string>
+    <string name="pos2">2</string>
+    <string name="pos3">3</string>
+    <string name="pos4">4</string>
+
+    <!--<心音选项></心音选项>-->
+    <string name="item1_h">房间隔缺损</string>
+    <string name="item2_h">室间隔缺损</string>
+    <string name="item3_h">二尖瓣狭窄</string>
+    <string name="item4_h">三尖瓣狭窄</string>
+    <string name="item5_h">主动脉狭窄</string>
+    <string name="item6_h">肺动脉狭窄</string>
+    <string name="item7_h">肥厚型梗阻</string>
+    <string name="item8_h">肺动脉高压</string>
+    <string name="item9_h">二尖瓣关闭不全</string>
+    <string name="item10_h">三尖瓣关闭不全</string>
+    <string name="item11_h">主动脉关闭不全</string>
+    <string name="item12_h">肺动脉关闭不全</string>
+    <string name="item13_h">动脉导管未闭</string>
+    <string name="item14_h">非肥厚型梗阻</string>
+    <string name="item15_h">瓣周漏</string>
+    <string name="item16_h">心动过速</string>
+    <string name="item17_h">房颤</string>
+    <string name="item18_h">其它</string>
+    <string name="posname_h">肺音录制位置</string>
+</resources>

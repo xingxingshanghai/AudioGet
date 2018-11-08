@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:drawable="@drawable/jianshi" />
+    <item android:state_pressed="true" android:drawable="@drawable/bu2" />
+</selector>

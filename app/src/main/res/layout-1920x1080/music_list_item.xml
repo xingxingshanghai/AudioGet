@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <View
+        android:id="@+id/music_list_selected"
+        android:layout_width="5dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_dark" />
+
+    <ImageView
+        android:id="@+id/music_list_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@id/music_list_selected"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/musicImg"
+        android:src="@drawable/music" />
+
+    <TextView
+        android:id="@+id/tv_music_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@id/music_list_icon"
+        android:singleLine="true"
+        android:text="@string/musicTitle"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_music_list_artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_music_list_title"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/music_list_icon"
+        android:maxLines="2"
+        android:text="@string/musicArt"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+</RelativeLayout>
